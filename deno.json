@@ -1,0 +1,9 @@
+{
+  "tasks": {
+    "dev": "deno run --watch --allow-all ./stitch-imgs.ts",
+    "stitch": "deno run --allow-all ./stitch-imgs.ts"
+  },
+  "imports": {
+    "@std/assert": "jsr:@std/assert@1"
+  }
+}
